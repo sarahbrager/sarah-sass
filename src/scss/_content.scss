@@ -1,0 +1,46 @@
+.content {
+    width: 85%;
+    min-height: 750px;
+    min-width: 600px;
+    background-color: $secondary-color;
+
+    > * {
+     padding-left: 30px;
+    }
+
+   h1 {
+    // increasing text size
+    font-size: 5rem;
+  }
+
+   p {
+    width: 55%;
+    min-width: 550px;
+    // increasing text size
+    font-size: 1.6rem;
+    // adding space between lines
+    line-height: 2.6rem;
+  }
+
+   img, video  {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    line-height: 2.6rem;
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+  a:link {
+    color: rgb(11, 55, 11);
+    text-decoration: underline;
+  }
+  
+  a:visited {
+   color: rgb(11, 55, 11);
+    text-decoration: underline;
+  }
+}
